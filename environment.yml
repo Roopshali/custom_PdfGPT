@@ -1,0 +1,5 @@
+channles:
+  - conda-forge
+dependencies:
+  - pytorch 
+  - faiss-gpu

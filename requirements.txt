@@ -4,4 +4,5 @@ python-dotenv
 streamlit 
 openai 
 tiktoken
-conda:pytorch:faiss-gpu
+pytorch 
+faiss-gpu
