@@ -4,9 +4,7 @@ channels:
 dependencies:
   - python=3.9
   - pip
-  - pytorch
-  - faiss-cpu
-  - faiss-gpu
+  - pytorch faiss-gpu
   - pip:
     - langchain 
     - pypdf2 
