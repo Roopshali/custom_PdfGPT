@@ -1,5 +1,16 @@
+name: pdfgpt
 channels:
-  - conda-forge
+  - javascript
 dependencies:
-  - pytorch 
+  - python=3.9
+  - pip
+  - pytorch
+  - faiss-cpu
   - faiss-gpu
+  - pip:
+    - langchain 
+    - pypdf2 
+    - python-dotenv 
+    - streamlit 
+    - openai 
+    - tiktoken
