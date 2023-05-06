@@ -5,7 +5,7 @@ dependencies:
   - python=3.9
   - pip
   - pytorch 
-  - faiss-gpu
+  - faiss-cpu
   - pip:
     - langchain 
     - pypdf2 
