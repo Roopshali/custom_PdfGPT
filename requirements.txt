@@ -4,5 +4,3 @@ python-dotenv
 streamlit 
 openai 
 tiktoken
-pytorch 
-faiss-gpu
