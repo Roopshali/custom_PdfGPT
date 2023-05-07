@@ -10,7 +10,10 @@ from langchain.llms import OpenAI
 
 def main():
     load_dotenv()
-    print(os.getenv("OPENAI_API_KEY"))
+    print("Logging:")
+    print(f'api_key_set = {os.environ["OPENAI_API_KEY"]==st.secrets["OPENAI_API_KEY"]}')
+    #os.environ["OPENAI_API_KEY"]=st.secrets["OPENAI_API_KEY"]
+    #print(os.getenv("OPENAI_API_KEY"))
     st.set_page_config(page_title="PDFGPT")
     st.header("Ask anything about your document")
     
@@ -47,5 +50,4 @@ def main():
         
 if __name__ == "__main__":
     os.system("conda update conda")
-    
     main()
