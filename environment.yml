@@ -4,7 +4,7 @@ dependencies:
   - python=3.9
   - pip
   - faiss-cpu
-  - faiss-gpu
+ 
   - pip:
     - cmake
     - aiohttp==3.8.4
