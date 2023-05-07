@@ -20,7 +20,7 @@ def main():
         st.session_state["OPENAI_API_KEY"]=api_key
         os.environ["OPENAI_API_KEY"]=st.session_state["OPENAI_API_KEY"]
         
-        print(f'api_key_set = {os.environ["OPENAI_API_KEY"]==st.secrets["OPENAI_API_KEY"]}')
+        #print(f'api_key_set = {os.environ["OPENAI_API_KEY"]==st.secrets["OPENAI_API_KEY"]}')
         pdf=st.file_uploader("Upload your PDF here",type="pdf")
         
         if pdf:
