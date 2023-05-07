@@ -2,7 +2,6 @@ channels:
   - pytorch
 dependencies:
   - python=3.9
-  - conda=23.3.1
   - pip
   - faiss-gpu
   - faiss-cpu
