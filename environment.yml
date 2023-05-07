@@ -3,7 +3,6 @@ channels:
 dependencies:
   - python=3.9
   - pip
-  - faiss-gpu
   - faiss-cpu
   - pip:
     - aiohttp==3.8.4
