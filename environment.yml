@@ -1,6 +1,5 @@
 channels:
   - pytorch
-  - conda-forge
 dependencies:
   - python=3.9
   - conda=23.3.1
