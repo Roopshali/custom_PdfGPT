@@ -3,7 +3,7 @@ channels:
 dependencies:
   - python=3.9
   - pip
-  - faiss-cpu
+  - faiss-gpu
  
   - pip:
     - cmake
